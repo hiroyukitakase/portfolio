@@ -1,0 +1,7 @@
+[2021-3-25 19:46:49] layer "DIGSMILE.inc": Unsupported extension: inc
+[2021-3-25 19:46:50] layer "CONTACT.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2021-3-25 19:46:50] layer "WORK-background.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2021-3-25 19:46:51] layer "WORK.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2021-3-25 19:46:52] layer "job-title.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2021-3-25 19:46:52] layer "name.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2021-3-25 19:46:53] layer "title.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.

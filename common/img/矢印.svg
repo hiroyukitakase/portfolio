@@ -1,0 +1,17 @@
+<svg id="矢印.svg" xmlns="http://www.w3.org/2000/svg" width="14" height="62.219" viewBox="0 0 14 62.219">
+  <defs>
+    <style>
+      .cls-3 {
+        fill: none;
+        stroke: #222;
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="長方形_5" data-name="長方形 5" class="cls-3" d="M727.877,531.289h0.246a0.353,0.353,0,0,1,.353.353v57.713a0.352,0.352,0,0,1-.353.352h-0.246a0.352,0.352,0,0,1-.353-0.352V531.642A0.353,0.353,0,0,1,727.877,531.289Z" transform="translate(-721 -530.781)"/>
+  <path id="多角形_1" data-name="多角形 1" class="cls-2" d="M728,593l-7-10h14Z" transform="translate(-721 -530.781)"/>
+</svg>

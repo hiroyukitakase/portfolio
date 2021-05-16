@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="application-name" content="HiroyukiTakase"/>
+  <link rel="stylesheet" href="common/css/reset.css">
+  <link rel="stylesheet" href="common/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'nvr7ttz',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+<title>Hiroyuki Takase</title>
+</head>
+<body class="body">
+
+
+
+
+
+  <div class="arrow">
+    <svg id="矢印.svg" xmlns="http://www.w3.org/2000/svg" width="14" height="62.219" viewBox="0 0 14 62.219">
+      <defs>
+        <style>
+        .cls-3 {
+          fill: none;
+          stroke: #222;
+          stroke-width: 1px;
+        }
+
+        .cls-4 {
+          fill-rule: evenodd;
+        }
+        </style>
+      </defs>
+      <path id="長方形_5" data-name="長方形 5" class="cls-3" d="M727.877,531.289h0.246a0.353,0.353,0,0,1,.353.353v57.713a0.352,0.352,0,0,1-.353.352h-0.246a0.352,0.352,0,0,1-.353-0.352V531.642A0.353,0.353,0,0,1,727.877,531.289Z" transform="translate(-721 -530.781)"/>
+      <path id="多角形_1" data-name="多角形 1" class="cls-4" d="M728,593l-7-10h14Z" transform="translate(-721 -530.781)"/>
+    </svg>
+  </div>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" class="overlay-item"width="354.12" height="85.311" viewBox="0 0 354.12 85.311">
+          <defs>
+            <style>
+              .cls-7 {
+                fill-rule: evenodd;
+                fill: #f6f5f4;
+              }
+            </style>
+          </defs>
+          <path id="HOME.svg" class="cls-7" d="M2092.14,923.662v32.4h-37.56v-32.4h-17.64V1006.1h17.64V972.02h37.56v34.08h17.64V923.662h-17.64Zm74.52,83.878c23.88,0,43.79-19.56,43.79-42.719s-19.91-42.6-43.79-42.6c-23.64,0-43.8,19.44-43.8,42.6S2143.02,1007.54,2166.66,1007.54Zm0-16.08c-13.8,0-25.56-12.24-25.56-26.639,0-14.28,11.76-26.519,25.56-26.519,13.92,0,25.68,12.239,25.68,26.519C2192.34,979.22,2180.58,991.46,2166.66,991.46Zm57.6,14.64h17.64V954.741l25.56,46.559,25.43-46.559V1006.1h17.76V923.662h-17.76l-25.43,46.559-25.56-46.559h-17.64V1006.1Zm166.79-66.478v-15.96h-63.47V1006.1h63.47V990.14h-45.71V972.02h41.39V956.061h-41.39V939.622h45.71Z" transform="translate(-2036.94 -922.219)"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="circle">
+    <div class="circle-black is-active"></div>
+    <div class="circle-white"></div>
+    <div class="circle-email"></div>
+    <div class="circle-arrow">
+      <span></span><span></span><span></span>
+    </div>
+    <!-- <svg width="8" height="8">
+      <circle cx="4" cy="4" r="4" fill="#000"></circle>
+    </svg> -->
+  </div>
+  <div class="follower">
+  </div>
+  <header class="header">
+    <a href="index.html"class="header-title">
+      <svg id="title.svg" xmlns="http://www.w3.org/2000/svg" width="34.719" height="84.438" viewBox="0 0 34.719 84.438">
+        <defs>
+          <style>
+            .cls-1 {
+              fill-rule: evenodd;
+            }
+          </style>
+        </defs>
+        <path id="H" class="cls-1" d="M89.965,58.787V74.234H72.058V58.787h-8.41v39.3h8.41V81.843H89.965V98.091h8.41v-39.3h-8.41Z" transform="translate(-63.656 -58.781)"/>
+        <path id="T" class="cls-1" d="M77.143,143.22H85.61V111.525H97.853v-7.609H64.9v7.609H77.143V143.22Z" transform="translate(-63.656 -58.781)"/>
+      </svg>
+    </a>
+    <nav class="humberger-container">
+      <span class="humberger" onclick="openNav()">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </nav>
+  </header>
+  <main class="main">
+
+    <section class="top">
+      <div class="top-name">
+        <svg id="name.svg" xmlns="http://www.w3.org/2000/svg" width="420.875" height="152.219" viewBox="0 0 420.875 152.219">
+          <defs>
+            <style>
+              .cls-1 {
+                fill-rule: evenodd;
+              }
+            </style>
+          </defs>
+          <path id="HIROYUKI_" data-name="HIROYUKI " class="cls-1" d="M196.2,187.366v20.521H172.409V187.366H161.236v52.215h11.173V218H196.2v21.585H207.37V187.366H196.2Zm33.818,52.215h11.248V187.366H230.016v52.215Zm77.977,0L295.148,221.34c7.145-2.508,11.857-8.588,11.857-16.341,0-10.336-8.36-17.633-19.685-17.633H263.835v52.215h11.172V222.632h8.285l11.932,16.949h12.769Zm-32.986-41.954h11.1c5.548,0,9.348,2.888,9.348,7.372s-3.8,7.373-9.348,7.373h-11.1V197.627Zm73.645,42.866c15.124,0,27.741-12.388,27.741-27.057s-12.617-26.982-27.741-26.982c-14.973,0-27.742,12.313-27.742,26.982S333.679,240.493,348.652,240.493Zm0-10.184c-8.741,0-16.189-7.753-16.189-16.873,0-9.045,7.448-16.8,16.189-16.8,8.816,0,16.265,7.752,16.265,16.8C364.917,222.556,357.468,230.309,348.652,230.309Zm54.643,9.272h11.324V220.732l20.37-33.366H422.448l-13.529,22.878-13-22.878H382.85L403.3,220.732v18.849Zm65.283,0.912c13.833,0,23.637-9.728,23.637-23.485V187.366H480.967v29.186c0,8.056-5.168,13.757-12.389,13.757-7.3,0-12.465-5.7-12.465-13.757V187.366H444.941v29.642C444.941,230.765,454.669,240.493,468.578,240.493Zm41.8-.912h11.173V224.988L528.085,218l16.037,21.585h13.605l-21.814-29.565,20.37-22.65H542.678l-21.129,23.942V187.366H510.376v52.215Zm60.5,0H582.12V187.366H570.871v52.215Z" transform="translate(-161.25 -186.469)"/>
+          <path id="TAKASE" class="cls-1" d="M178.366,337.763h11.249V295.656H205.88V285.548H162.1v10.108h16.265v42.107Zm79.421,0H270.4l-21.281-52.215H236.582L215.3,337.763h12.54l3.345-8.209h23.257Zm-22.725-17.709,7.752-19.077,7.753,19.077h-15.5Zm50.994,17.709h11.173V323.17l6.536-6.993L319.8,337.763h13.6L311.594,308.2l20.369-22.649H318.358l-21.129,23.941V285.548H286.056v52.215Zm100.17,0h12.616l-21.281-52.215h-12.54l-21.282,52.215H356.28l3.344-8.209h23.257ZM363.5,320.054l7.753-19.077,7.752,19.077H363.5Zm70.376,18.621c12.769,0,20.293-6.613,20.293-16.569,0-9.653-7.448-13-18.7-15.5-8.056-1.824-11.172-3.04-11.172-6.84,0-3.117,2.888-5.625,7.676-5.625,5.016,0,10.26,2.052,14.9,5.777l5.852-8.057c-5.32-4.56-11.933-7.22-20.445-7.22-11.4,0-19.3,6.612-19.3,16.265,0,10.108,7.828,13.224,18.849,15.732,7.98,1.825,11.02,2.965,11.02,6.689,0,3.268-2.888,5.852-8.512,5.852-6.612,0-12.237-2.584-17.177-6.84l-6.46,7.676A33.539,33.539,0,0,0,433.876,338.675Zm77.673-43.019V285.548H471.343v52.215h40.206V327.654H482.591V316.177h26.222V306.069H482.591V295.656h28.958Z" transform="translate(-161.25 -186.469)"/>
+        </svg>
+
+      </div>
+      <div class="top-job-title">
+        <svg id="job-title.svg" xmlns="http://www.w3.org/2000/svg" width="373.906" height="41.376" viewBox="0 0 373.906 41.376">
+          <defs>
+            <style>
+              .cls-1, .cls-2 {
+                fill-rule: evenodd;
+              }
+
+              .cls-2 {
+                fill: none;
+                stroke: #000;
+                stroke-width: 1px;
+              }
+            </style>
+          </defs>
+          <path id="Coding" class="cls-1" d="M188.414,397.051a8.919,8.919,0,0,0,6.409-2.761l-2.569-2.3a5.136,5.136,0,0,1-3.84,1.848,5.321,5.321,0,0,1,0-10.633,5.134,5.134,0,0,1,3.84,1.849l2.569-2.305A8.643,8.643,0,1,0,188.414,397.051Zm16.512,0a6.5,6.5,0,1,0-6.793-6.5A6.705,6.705,0,0,0,204.926,397.051Zm0-2.953a3.543,3.543,0,1,1,3.408-3.552A3.536,3.536,0,0,1,204.926,394.1Zm20.3-14.113v6.145a5.1,5.1,0,0,0-4.176-2.065c-3.313,0-5.713,2.689-5.713,6.481,0,3.816,2.4,6.5,5.713,6.5a5.094,5.094,0,0,0,4.176-2.065v1.777h3.5V379.985h-3.5ZM222.062,394.1a3.548,3.548,0,0,1,0-7.08A3.562,3.562,0,0,1,222.062,394.1Zm13.415-11.449a1.9,1.9,0,1,0-1.92-1.92A1.9,1.9,0,0,0,235.477,382.649ZM233.7,396.763h3.5V384.354h-3.5v12.409Zm15.648-12.7a4.422,4.422,0,0,0-3.744,1.849v-1.56h-3.5v12.409h3.5v-7.417l0.024,0.072a2.47,2.47,0,0,1,2.592-2.4,2.364,2.364,0,0,1,2.352,2.592v7.153h3.385v-7.9A4.529,4.529,0,0,0,249.349,384.065Zm18.456,0.289v1.68a5.111,5.111,0,0,0-4.1-1.969c-3.12,0-5.5,2.425-5.5,5.881s2.377,5.9,5.5,5.9a5.281,5.281,0,0,0,4.1-1.921V395.3c0,1.609-1.44,2.641-3.7,2.641a5.864,5.864,0,0,1-3.7-1.176l-1.224,2.472a9.266,9.266,0,0,0,5.472,1.656c3.912,0,6.673-2.256,6.673-5.449V384.354h-3.529Zm-3,8.544a2.941,2.941,0,1,1,3-2.952A2.861,2.861,0,0,1,264.805,392.9Z" transform="translate(-179.656 -368.812)"/>
+          <path id="長方形_4" data-name="長方形 4" class="cls-2" d="M357.342,369.347c0.17,0.065.229,0.207,0.13,0.318l-35.3,39.9a0.472,0.472,0,0,1-.487.085c-0.171-.064-0.229-0.206-0.13-0.318l35.3-39.9A0.472,0.472,0,0,1,357.342,369.347Z" transform="translate(-179.656 -368.812)"/>
+          <path id="Web_Design" data-name="Web Design" class="cls-1" d="M399.142,396.763h3.576l3.912-11.329,3.889,11.329h3.552l4.992-16.49h-3.84l-3.048,11.065-3.648-11.065h-3.841l-3.648,11.065-3.048-11.065h-3.841Zm29.712-2.809A3.014,3.014,0,0,1,425.9,391.7h8.953c0-4.68-2.28-7.633-6.168-7.633a6.252,6.252,0,0,0-6.385,6.457,6.385,6.385,0,0,0,6.577,6.529,7.574,7.574,0,0,0,5.064-1.921l-2.232-2.28A4.493,4.493,0,0,1,428.854,393.954Zm-0.024-6.792a2.589,2.589,0,0,1,2.664,2.016h-5.545A3,3,0,0,1,428.83,387.162Zm17.975-3.1a5.108,5.108,0,0,0-4.152,2.017v-6.1h-3.5v16.778h3.5V395.01a5.06,5.06,0,0,0,4.152,2.041c3.313,0,5.713-2.689,5.713-6.5C452.518,386.754,450.118,384.065,446.805,384.065ZM445.8,394.1a3.168,3.168,0,0,1-3.144-3.072v-0.96a3.164,3.164,0,0,1,3.144-3.048A3.548,3.548,0,0,1,445.8,394.1Zm19.967,2.665h5.9c5.544,0,9.481-3.433,9.481-8.257s-3.937-8.233-9.481-8.233h-5.9v16.49Zm3.529-3.217V383.489h2.832c3.144,0,5.376,2.089,5.376,5.017,0,2.952-2.232,5.04-5.376,5.04h-2.832Zm22.272,0.408a3.013,3.013,0,0,1-2.953-2.256h8.953c0-4.68-2.28-7.633-6.168-7.633a6.252,6.252,0,0,0-6.385,6.457,6.385,6.385,0,0,0,6.577,6.529,7.574,7.574,0,0,0,5.064-1.921l-2.232-2.28A4.493,4.493,0,0,1,491.565,393.954Zm-0.024-6.792a2.589,2.589,0,0,1,2.664,2.016H488.66A3,3,0,0,1,491.541,387.162Zm14.975,9.889c3.048,0,5.041-1.561,5.041-4.009,0-2.712-2.377-3.432-4.513-3.984-1.68-.456-2.184-0.648-2.184-1.32,0-.432.6-0.744,1.464-0.744a7.023,7.023,0,0,1,3.48,1.1l1.417-2.5a9.035,9.035,0,0,0-4.9-1.537c-2.928,0-4.872,1.681-4.848,4.033,0.024,2.448,1.992,3.144,4.536,3.768,1.272,0.336,2.184.576,2.184,1.344,0,0.552-.672.936-1.608,0.936a7.06,7.06,0,0,1-4.152-1.392l-1.512,2.424A9.167,9.167,0,0,0,506.516,397.051Zm11.064-14.4a1.9,1.9,0,1,0-1.92-1.92A1.9,1.9,0,0,0,517.58,382.649ZM515.8,396.763h3.5V384.354h-3.5v12.409Zm17.448-12.409v1.68a5.111,5.111,0,0,0-4.1-1.969c-3.12,0-5.5,2.425-5.5,5.881s2.377,5.9,5.5,5.9a5.281,5.281,0,0,0,4.1-1.921V395.3c0,1.609-1.44,2.641-3.7,2.641a5.864,5.864,0,0,1-3.7-1.176l-1.225,2.472a9.271,9.271,0,0,0,5.473,1.656c3.912,0,6.672-2.256,6.672-5.449V384.354h-3.528Zm-3,8.544a2.941,2.941,0,1,1,3-2.952A2.861,2.861,0,0,1,530.252,392.9Zm18.7-8.833a4.424,4.424,0,0,0-3.745,1.849v-1.56h-3.5v12.409h3.5v-7.417l0.024,0.072a2.47,2.47,0,0,1,2.593-2.4,2.364,2.364,0,0,1,2.352,2.592v7.153h3.384v-7.9A4.528,4.528,0,0,0,548.948,384.065Z" transform="translate(-179.656 -368.812)"/>
+        </svg>
+      </div>
+    </section>
+
+      <section class="about">
+        <p class="about-content">
+          １９９６年９月４日生まれ（２４才）。</br>
+          愛媛県出身。</br>
+          大阪市在住。
+        </p>
+      </section>
+      <section class="work">
+        <div class="work-background">
+        </div>
+        <div class="work-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="507.562" height="106.63" viewBox="0 0 507.562 106.63">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="WORK.svg" class="cls-1" d="M192.533,1616.61H214.88l24.447-70.79,24.3,70.79h22.2l31.2-103.04h-24l-19.048,69.14-22.8-69.14h-24l-22.8,69.14-19.047-69.14h-24Zm191.4,1.8c29.846,0,54.743-24.45,54.743-53.4s-24.9-53.24-54.743-53.24c-29.547,0-54.744,24.3-54.744,53.24S354.381,1618.41,383.928,1618.41Zm0-20.1c-17.248,0-31.946-15.3-31.946-33.3,0-17.84,14.7-33.14,31.946-33.14,17.4,0,32.1,15.3,32.1,33.14C416.024,1583.01,401.326,1598.31,383.928,1598.31Zm164.245,18.3-25.347-36c14.1-4.95,23.4-16.95,23.4-32.25,0-20.39-16.5-34.79-38.845-34.79H461.033v103.04h22.048v-33.45h16.348l23.547,33.45h25.2Zm-65.092-82.79h21.9c10.949,0,18.448,5.7,18.448,14.54s-7.5,14.55-18.448,14.55h-21.9v-29.09Zm92.4,82.79H597.53v-28.8l12.9-13.8,31.646,42.6h26.847l-43.045-58.35,40.2-44.69H639.225l-41.7,47.24v-47.24H575.482v103.04Z" transform="translate(-161.344 -1511.78)"/>
+          </svg>
+        </div>
+        <div class="work-content">
+          <a class="work-item" href="work-09.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work9.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">京城苑（仮）</p>
+              <p class="work-item-description">京都の高級ホテルのFV案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-08.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work8.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">ParisTrois（仮）</p>
+              <p class="work-item-description">女性向けファッションサイトのFV案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-07.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work7.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">GYMBOX（仮）</p>
+              <p class="work-item-description">女性向けのボクシングジムサイトのFV案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-06.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work6.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">CityConsulting（仮）</p>
+              <p class="work-item-description">IT系コンサルティング会社のFV案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-05.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work5.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">薬膳健康Salon（仮）</p>
+              <p class="work-item-description">薬膳・麹に特化した料理教室のHP案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-04.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work4.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">佐々木商店</p>
+              <p class="work-item-description">青森県八戸市にある居酒屋のHP案</p>
+              <div class="work-item-type">DESIGN</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-03.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work3.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">完全版マハーバーラタ</p>
+              <p class="work-item-description">インドの古典を舞台にした演劇のHP</p>
+              <div class="work-item-type">CODING</div>
+            </div>
+          </a>
+          <a class="work-item" href="work-02.html">
+            <div class="work-item-img-container">
+              <img src="common/img/work2.png" class="work-item-img" alt="">
+            </div>
+            <div class="work-item-lower-container">
+              <p class="work-item-title">DIGSMILE.inc</p>
+              <p class="work-item-description">クリエイティブ系制作会社のHP</p>
+              <div class="work-item-type">CODING</div>
+            </div>
+          </a>
+            <a class="work-item" href="work-01.html">
+              <div class="work-item-img-container">
+                <img src="common/img/work1.png" class="work-item-img" alt="">
+              </div>
+              <div class="work-item-lower-container">
+                <p class="work-item-title">ユアコーディング</p>
+                <p class="work-item-description">フリーランスコーダー紹介のHP</p>
+                <div class="work-item-type">CODING</div>
+              </div>
+            </a>
+        </div>
+
+      </section>
+      <section class="contact">
+        <div class="contact-title">
+          <svg id="CONTACT.svg" xmlns="http://www.w3.org/2000/svg" width="592.062" height="85.31" viewBox="0 0 592.062 85.31">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="C" class="cls-1" d="M268.5,3903.54a44.593,44.593,0,0,0,32.038-13.8L287.7,3878.22a25.681,25.681,0,0,1-19.2,9.24c-13.8,0-25.559-12.24-25.559-26.64,0-14.28,11.759-26.52,25.559-26.52a25.681,25.681,0,0,1,19.2,9.24l12.839-11.52a44.122,44.122,0,0,0-32.038-13.8c-23.639,0-43.8,19.44-43.8,42.6S244.858,3903.54,268.5,3903.54Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="O" class="cls-1" d="M351.5,3903.54c23.879,0,43.8-19.56,43.8-42.72s-19.919-42.6-43.8-42.6c-23.639,0-43.8,19.44-43.8,42.6S327.858,3903.54,351.5,3903.54Zm0-16.08c-13.8,0-25.559-12.24-25.559-26.64,0-14.28,11.759-26.52,25.559-26.52,13.919,0,25.679,12.24,25.679,26.52C377.176,3875.22,365.416,3887.46,351.5,3887.46Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="N" class="cls-1" d="M409.658,3903.1H427.3v-53.28l39.718,53.28h17.759v-82.44H467.016v53.28L427.3,3820.66h-17.64v82.44Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="T" class="cls-1" d="M523.3,3903.1h17.76v-66.48h25.679v-15.96H497.619v15.96H523.3v66.48Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="A" class="cls-1" d="M638.416,3903.1h19.919l-33.6-82.44h-19.8l-33.6,82.44h19.8l5.28-12.96h36.718Zm-35.879-27.96,12.24-30.12,12.239,30.12H602.537Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="C-2" data-name="C" class="cls-1" d="M709.5,3903.54a44.593,44.593,0,0,0,32.038-13.8L728.7,3878.22a25.681,25.681,0,0,1-19.2,9.24c-13.8,0-25.559-12.24-25.559-26.64,0-14.28,11.759-26.52,25.559-26.52a25.681,25.681,0,0,1,19.2,9.24l12.839-11.52a44.122,44.122,0,0,0-32.038-13.8c-23.639,0-43.8,19.44-43.8,42.6S685.858,3903.54,709.5,3903.54Z" transform="translate(-224.688 -3818.22)"/>
+            <path id="T-2" data-name="T" class="cls-1" d="M773.3,3903.1h17.76v-66.48h25.679v-15.96H747.619v15.96H773.3v66.48Z" transform="translate(-224.688 -3818.22)"/>
+          </svg>
+
+        </div>
+        <a href="mailto:neginattofan@yahoo.co.jp" class="contact-form"></a>
+      </section>
+
+    </main>
+<script src="common/js/style.js"></script>
+<script src="common/js/jquery-style.js"></script>
+
+</body>
+</html>
