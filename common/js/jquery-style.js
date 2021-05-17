@@ -30,7 +30,7 @@ $(".sub-work-fv").on({
     follower.removeClass("is-active");
   }
 });
-$(".contact-form").on({
+$(".contact").on({
   "mouseenter": function() {
     circleemail.addClass("is-active");
     circleblack.removeClass("is-active");
@@ -57,6 +57,6 @@ $(".overlay").on({
 
 $(window).scroll(function(){
      var scroll = $(this).scrollTop(); // スクロール値を取得
-     $('.work-background').css('background-position', '0px ' + parseInt( scroll / 10 ) + 'px'); // 1/50のスピード
+     $('.work-background').css('background-position', '0px ' + parseInt( scroll / 7 ) + 'px'); // 1/50のスピード
      // $('.work-background').css('background-position-x', parseInt( scroll / -5 ) + 'px'); // 1/50のスピード
  });

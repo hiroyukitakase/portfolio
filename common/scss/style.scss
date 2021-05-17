@@ -236,14 +236,14 @@
 }
 
 .top{
-  margin-bottom: 500px;
+  margin-bottom: 250px;
   position: relative;
   &-name{
 
   }
   &-job-title{
-    padding-left: 10px;
-    padding-top: 20px;
+    padding-left: 18px;
+    padding-top: 30px;
   }
 }
 .arrow{
@@ -273,39 +273,77 @@
 }
 
 .about{
+  position: relative;
+  &-title{
+    position: absolute;
+    left: 50%;
+    // top: 50%;
+    transform: translate(-50%, 0);
+  }
+  &-img{
+      width: 100%;
+    &-container{
+      width: 220px;
+      height: 220px;
+    }
+  }
   &-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+    padding-top: 80px;
+  }
+  &-content-left{
+    flex-basis: 30%;
+    padding-left: 4vw;
+    box-sizing: border-box;
+  }
+  &-content-right{
     font-family: noto-sans-cjk-jp, sans-serif;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.25rem;
-    line-height: 40px;
-    font-size: 18px;
-    padding-left: 4vw;
-    padding-top: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    flex-basis: 70%;
+    padding-right: 2vw;
+    box-sizing: border-box;
   }
 }
 
 .work{
   &-background{
-    background: url(../../common/img/work-background.svg);
+    background: url(../../common/img/WORKS-background.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    // background-position: right;
+    position: absolute;
     height: 3000px;
     width: 350px;
-    float: right;
+    z-index: -1;
+    right: 0;
   }
   &-title{
-    padding-top: 480px;
-    padding-bottom: 100px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+  }
+  &-subtitle{
+    font-family: noto-sans-cjk-jp, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.25rem;
+    padding-left: 15px;
+    padding-bottom: 30px;
   }
   &-content{
     list-style: none;
-    padding-left: 4vw;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   &-item{
-    margin-top: 50px;
+    margin: 50px 50px 0 0;
     width: 500px;
     height: 380px;
     background: #fefefe;
@@ -363,8 +401,9 @@
   position: relative;
   &-title{
     position: absolute;
-    left: 0;
-    top: -85px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   &-form{
     width: 100%;
