@@ -341,14 +341,28 @@
       letter-spacing: 0.4rem;
       margin-bottom:20px;
     }
-    &-type{
+    &-type-box{
       font-family: voguing-slanted, sans-serif;
       font-weight: 300;
       font-style: normal;
+      display: flex;
+    }
+    &-type-design{
       color: white;
       background: gray;
       height: 25px;
       width: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+      margin-right: 10px;
+    }
+    &-type-photoshop{
+      color: white;
+      background: gray;
+      height: 25px;
+      width: 120px;
       display: flex;
       align-items: center;
       justify-content: center;
