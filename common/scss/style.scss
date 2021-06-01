@@ -288,9 +288,7 @@
     padding-bottom: 30px;
   }
   &-subtitle{
-    font-family: noto-sans-cjk-jp, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
     letter-spacing: 0.25rem;
     padding-left: 5px;
     padding-bottom: 30px;
@@ -327,17 +325,15 @@
       padding-left: 40px;
     }
     &-title{
-      font-family: noto-sans-cjk-jp, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 24px;
+      font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+      font-size: 22px;
       margin-bottom:15px;
-      letter-spacing: 0.15rem;
+      letter-spacing: 0.35rem;
+      font-weight: 600;
     }
     &-description{
-      font-family: noto-sans-cjk-jp, sans-serif;
-      font-weight: 500;
-      font-style: normal;
+      font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+
       letter-spacing: 0.4rem;
       margin-bottom:20px;
     }
@@ -392,15 +388,14 @@
     margin-bottom: 80px;
     padding-top: 90px;
   }
-  &-content-left{
+  &-content-top{
     flex-basis: 30%;
     box-sizing: border-box;
     margin-bottom: 30px;
   }
-  &-content-right{
-    font-family: noto-sans-cjk-jp, sans-serif;
+  &-content-bottom{
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
     font-weight: 500;
-    font-style: normal;
     letter-spacing: 0.25rem;
     line-height: 32px;
     font-size: 14px;
@@ -427,88 +422,32 @@
 }
 
 .sub-work{
-  display: flex;
-  flex-direction: row;
-  &-title{
-    font-family: noto-sans-cjk-jp, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
-    margin-bottom:25px;
-    letter-spacing: 0.15rem;
+  font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: -50px;
+  line-height: 24px;
+  margin-bottom: 100px;
+  &-img-container{
+    width: 500px;
+    margin: 0 auto 50px;
   }
-  &-left{
-    flex-basis: 60%;
-    display: block;
-    &-img{
-      width: 100%;
-    }
+  &-img{
+    width: 100%;
   }
-  &-right{
-    padding-left: 4vw;
-    margin-right: 4vw;
-    flex-basis: 40%;
-    &-upper{
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px;
-    }
+  &-table{
+    width: 500px;
+    margin: 0 auto;
   }
-  &-date{
-    float: left;
-    margin-right: 30px;
+  &-bar-left{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    width: 40%;
   }
-  &-type{
-    font-family: voguing-slanted, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    background: gray;
-    height: 25px;
-    width: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    border-radius: 15px;
-    font-size: 14px;
-    letter-spacing: .05rem;
-  }
-  &-description{
-    font-family: noto-sans-cjk-jp, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: 0.25rem;
-    line-height: 35px;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  &-btn{
-    background: #000;
-    color: #fff;
-    display: block;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 10px;
-    font-family: voguing, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
-    letter-spacing: .3rem;
-    font-size: 18px;
-    transition: .3s;
-    text-decoration: none;
-    &:hover{
-      transition: .3s;
-      background: #555;
-    }
-    &-long{
-      width: 250px;
-    }
-  }
-  &-container{
-    margin-top: -50px;
+  &-bar-right{
+    width: 60%;
+    padding-bottom: 20px;
   }
 }
