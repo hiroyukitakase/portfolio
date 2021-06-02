@@ -23,16 +23,6 @@
       h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
     })(document);
   </script>
-  <script src="http://maps.google.com/maps/api/js?key=AIzaSyCYVEva5j5iRVMqbOFXGK55e0pihfkjAAo&language=ja"></script>
-  <script>
-    var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516);
-    var Options = {
-     zoom: 15,      //地図の縮尺値
-     center: MyLatLng,    //地図の中心座標
-     mapTypeId: 'roadmap'   //地図の種類
-    };
-    var map = new google.maps.Map(document.getElementById('contact-map'), Options);
-  </script>
 <title>Hiroyuki Takase</title>
 </head>
 <body class="body">
@@ -118,7 +108,6 @@
     </nav>
   </header>
   <main class="main">
-    <div id="contact-map"></div>
 
     <section class="top">
       <div class="top-name">
